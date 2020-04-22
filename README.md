@@ -1,10 +1,8 @@
-# node-js-getting-started
+# node-js-getting-started (joor-jordanb fork)
 
-A barebones Node.js app using [Express 4](http://expressjs.com/).
+A barebones Node.js app using [Express 4](http://expressjs.com/). This has been updated with some tutorials for friends, family, coworkers, and anyone who wants to get together their own site. See the [wiki](https://github.com/joor-jordanb/node-js-getting-started/wiki/Build-Your-Own-Personal-Site) for more information.
 
-This application supports the [Getting Started on Heroku with Node.js](https://devcenter.heroku.com/articles/getting-started-with-nodejs) article - check it out.
-
-## Running Locally
+## Running Locally (from the original repo)
 
 Make sure you have [Node.js](http://nodejs.org/) and the [Heroku CLI](https://cli.heroku.com/) installed.
 
@@ -19,7 +17,7 @@ Your app should now be running on [localhost:5000](http://localhost:5000/).
 
 ## Deploying to Heroku
 
-```
+```sh
 $ heroku create
 $ git push heroku master
 $ heroku open
